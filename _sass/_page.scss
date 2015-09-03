@@ -2,7 +2,8 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	background-color: $body-color;
+	background-image: -webkit-linear-gradient(left, rgba(3, 118, 188, 0.12), rgba(36, 172, 171, 0.08));
+  background-image: linear-gradient(left, rgba(3, 118, 188, 0.12), rgba(36, 172, 171, 0.08));
 }
 
 // Main
@@ -32,6 +33,7 @@ body {
 	width: 100%;
 	overflow: hidden;
 	position: relative;
+	border-bottom: solid rgb(129, 226, 255) 1.2rem;
 }
 .header-title {
 	text-align: center;
@@ -49,6 +51,8 @@ body {
 		}
 	}
 	h2 {
+		font-family: 'Ubuntu', arial, sans-serif;
+		font-weight: 300;
 		margin: 0;
 		@include font-rem(18);
 		text-transform: uppercase;
@@ -76,11 +80,11 @@ body {
 		text-align: center;
 	}
 	h1 {
+		font-family: 'Helvetica', arial, sans-serif;
 		margin: 10px;
-		font-weight: 700;
+		font-weight: 300;
 		margin: 10px 60px;
-		color: $white;
-		text-shadow: 1px 1px 4px rgba($base-color,0.6);
+		color: rgba(255, 255, 255, 0.89);
 		a {
 			color: $white;
 		}
@@ -89,7 +93,10 @@ body {
 	}
 	h2 {
 		margin: 0;
-		color: $white;
+		padding-top: 3rem;
+		font-family: 'Lato', arial, sans-serif;
+		font-weight: 300;
+		color: rgba(255, 255, 255, 0.66);
 		text-transform: uppercase;
 		@media #{$medium} {
 			a {
@@ -103,9 +110,9 @@ body {
 }
 .entry-image {
 	position: relative;
-	top: -50%; 
-	left: -50%; 
-	width: 200%; 
+	top: -50%;
+	left: -50%;
+	width: 200%;
 	height: 200%;
 	min-height: 400px;
 	overflow: hidden;
@@ -116,15 +123,16 @@ body {
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background-color: rgba($base-color,0.3);
+		background: -webkit-linear-gradient(top, rgba(3, 118, 188, 0.72), rgba(36, 172, 171, 0.39));
+    background: linear-gradient(top, rgba(3, 118, 188, 0.72), rgba(36, 172, 171, 0.39));
 	}
 	img {
-		position: absolute; 
-		top: 0; 
-		left: 0; 
-		right: 0; 
-		bottom: 0; 
-		margin: auto; 
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
 		min-width: 50%;
 		min-height: 400px; // match .entry-image min-height
 	}
@@ -314,7 +322,7 @@ header .entry-meta {
 	h3 {
 		margin: 0;
 		@include font-rem(28);
-		a { 
+		a {
 			color: $text-color;
 		}
 		@media #{$medium} {
@@ -328,11 +336,11 @@ header .entry-meta {
 .list-item {
 	width: 100%;
 	text-align: left;
-	h4 { 
+	h4 {
 		@include font-rem(18);
-		margin-bottom: 0; 
+		margin-bottom: 0;
 	}
-	span { 
+	span {
 		display: block;
 		@include font-rem(14);
 		color: lighten($base-color,50);
@@ -346,7 +354,7 @@ header .entry-meta {
 	}
 }
 
-// Post Index 
+// Post Index
 // --------------------------------------------------
 #post-index {
 	#main {
@@ -415,7 +423,7 @@ header .entry-meta {
 // --------------------------------------------------
 .socialcount {
 	@include font-rem(16);
-	li { 
+	li {
 		padding-left: 10px;
 		padding-right: 10px;
 	}

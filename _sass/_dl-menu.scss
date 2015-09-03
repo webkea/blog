@@ -37,7 +37,7 @@
 	button:hover,
 	button.dl-active,
 	ul {
-		background: #aaa;
+		background: #6DD3F2;
 	}
 	button:after {
 		content: '';
@@ -47,8 +47,8 @@
 		background: $white;
 		top: 10px;
 		left: 16%;
-		box-shadow: 
-			0 10px 0 $white, 
+		box-shadow:
+			0 10px 0 $white,
 			0 20px 0 $white;
 	}
 	button.dl-active {
@@ -165,10 +165,10 @@
 		display: none;
 	}
 }
-/* 
+/*
 When a submenu is openend, we will hide all li siblings.
 For that we give a class to the parent menu called "dl-subview".
-We also hide the submenu link. 
+We also hide the submenu link.
 The opened submenu will get the class "dl-subviewopen".
 All this is done for any sub-level being entered.
 */
@@ -368,3 +368,25 @@ All this is done for any sub-level being entered.
 .dl-menuopen li {
 	display: block
 }
+/* OVER_RIDES */
+.dl-menuwrapper button:hover, .dl-menuwrapper button.dl-active, .dl-menuwrapper ul {
+	background: #6DD3F2;
+}
+.dl-menuwrapper li.dl-back>a {
+	background: rgba(169, 243, 255, 0.52);
+}
+.dl-menuwrapper li.dl-back:after {
+	color: #fff;
+}
+.no-touch .dl-menuwrapper li a:hover {
+  background: rgba(255, 248, 213, 0.36);
+}
+.no-touch .dl-menuwrapper li .learn-more-link:hover {
+	background: rgba(#ffffff, 0);
+}
+.btn-inverse:hover {
+  background-color: rgba(99, 234, 240, 0.69);
+  color: #fff;
+}
+
+/* OVER_RIDES */
