@@ -5,7 +5,7 @@ date: {{ date }}
 modified:
 description:
 image:
-  feature:
+  feature: bg-main.jpg
   credit:
   creditlink:
 share:

@@ -470,3 +470,17 @@ header .entry-meta {
 #goog-wm-sb {
 	@extend .btn;
 }
+
+.list-title {
+	margin-left: -2.5rem !important;
+	list-style: none !important;
+	a {
+		color: rgb(129, 226, 255);
+		&:hover {
+			color: rgb(19, 148, 185);
+		}
+		&:visited {
+			color: rgb(129, 226, 255);
+		}
+	}
+}

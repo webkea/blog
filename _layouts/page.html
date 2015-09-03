@@ -7,24 +7,29 @@
 {% include head.html %}
 </head>
 
-<body id="page" {% if page.image.feature %}class="feature"{% endif %}>
+<body id="page" class="feature">
 
 {% include browser-upgrade.html %}
 {% include navigation.html %}
 
-{% if page.image.feature %}
+
 <div class="entry-header">
-  {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
   <div class="entry-image">
-    <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
+    <img src="/images/bg-main.jpg" alt="Webkea">
   </div><!-- /.entry-image -->
+
+  <div class="header-title">
+    <div class="header-title-wrap">
+      <h1>WEB<strong>KEA</strong></h1>
+      <h2>{{ page.title }}</h2>
+    </div><!-- /.header-title-wrap -->
+  </div><!-- /.header-title -->
 </div><!-- /.entry-header -->
-{% endif %}
+
 
 <div id="main" role="main">
   <article class="hentry">
-    <header class="header-title">
-      <div class="header-title-wrap">
+
         <h1 class="entry-title">{{ page.title }}</h1>
         {% if site.reading_time %}
         <p class="entry-reading-time">
@@ -33,8 +38,7 @@
           Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
         </p><!-- /.entry-reading-time -->
         {% endif %}
-      </div><!-- /.header-title-wrap -->
-    </header>
+
     <div class="entry-content">
       {{ content }}
       <footer class="entry-meta">

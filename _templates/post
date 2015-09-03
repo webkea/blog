@@ -6,7 +6,7 @@ categories: {{ dir }}
 description:
 tags: []
 image:
-  feature:
+  feature: bg-main.jpg
   credit:
   creditlink:
 comments:
