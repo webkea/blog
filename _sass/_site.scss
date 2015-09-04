@@ -21,22 +21,22 @@
 }
 .image-left {
 	float: none;
+	text-align: center;
 	@media #{$medium} {
+		border: solid 7px #D7E2E3;
 		margin-right: 1rem;
 		float: left;
 	}
 }
 .image-right {
 	float: none;
+	text-align: center;
 	@media #{$medium} {
 		margin-left: 1rem;
+		border: solid 7px #D7E2E3;
 		float: right;
 	}
 }
-.image-right, .image-left {
-	border: solid 7px #D7E2E3;
-}
-
 
 .unstyled-list {
 	list-style: none;
