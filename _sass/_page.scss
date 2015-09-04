@@ -16,6 +16,14 @@ body {
 	}
 }
 .entry-content {
+	.image-right-border {
+		margin-left: 1rem !important;
+		border: solid 7px #D7E2E3 !important;
+	}
+	.image-left-border {
+		margin-right: 1rem !important;
+		border: solid 7px #D7E2E3 !important;
+	}
 	@include font-size(16);
 	// Dotted line underlines for links
 	p > a,

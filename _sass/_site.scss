@@ -22,15 +22,22 @@
 .image-left {
 	float: none;
 	@media #{$medium} {
+		margin-right: 1rem;
 		float: left;
 	}
 }
 .image-right {
 	float: none;
 	@media #{$medium} {
+		margin-left: 1rem;
 		float: right;
 	}
 }
+.image-right, .image-left {
+	border: solid 7px #D7E2E3;
+}
+
+
 .unstyled-list {
 	list-style: none;
 	margin-left: 0;
@@ -48,6 +55,7 @@
 		display: inline;
 	}
 }
+
 
 // Global Transition
 // ---------------------------------------------------
