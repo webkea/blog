@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "New Post Title"
+title: "Taking the leap"
 modified:
 categories: posts
-description:
-tags: []
+description: "How we decided to take the leap of faith, quit our jobs, and start a business."
+tags: [business, startups]
 image:
   feature:
   credit:
@@ -13,92 +13,17 @@ comments:
 share:
 date: 2015-09-03T21:25:14+12:00
 ---
-Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+Before it started, my business partner and myself had talked about starting our own business for quite a while. We both worked for the same employer, in the same team, and everyday we'd talk and dream about leaving behind our jobs to start something great. We tried to play it safe and started moonlighting with web design and development. It turns out, the more we ventured into this world, the more we enjoyed it, and the more we craved a change in our lives.
 
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-### Body text
-
-Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
-
-![Laptop Image]({{ site.url }}/images/laptop.jpg)
+![Laptop Image]({{ site.url }}/images/post-1015-09-03-cat.jpg)
 {: .image-right}
 
-*This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times <cite>(That’s a citation)</cite>. <u>Underline</u>. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+But you can only get so far while playing it safe and besides working two jobs isn't a sustainable lifestyle for the long-term. We kept punching in and out but then one day, an opportunity came along. The Company we worked for was restructuring and we informed we could be laid-off as a result. After enquiring about the redundancy pay-out (severance package), my co-worker and I took a break from work and took a walk.
 
-HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
+It's nice to get out of the office and just walk through the city and parks near by. It sort of helps you get out of the mind-frame that the office is your life's reality and you can see that a much bigger reality exists with more possibilities and bigger potentials.
 
-### Blockquotes
+It didn't take us long to decide. The next day we both volunteered for redundancy. It felt good to put our hands up. After all, it meant two other people who probably really needed their jobs would get to keep them and we would essentially be paid to quit, after which, we would move on to exploring bigger realities.
 
-> Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
+I didn't know how I was going to pay my mortgage or support my family, but I knew I would somehow. We weren't just stepping off a ledge, we were leaping into the abyss with full faith that we would learn to fly before we hit bottom.
 
-## List Types
-
-### Ordered Lists
-
-1. Item one
-   1. sub item one
-   2. sub item two
-   3. sub item three
-2. Item two
-
-### Unordered Lists
-
-* Item one
-* Item two
-* Item three
-
-## Tables
-
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=====
-| Foot1   | Foot2   | Foot3
-{: rules="groups"}
-
-## Code Snippets
-
-Syntax highlighting via Pygments
-
-{% highlight css %}
-#container {
-  float: left;
-  margin: 0 -240px 0 0;
-  width: 100%;
-}
-{% endhighlight %}
-
-Non Pygments code example
-
-    <div id="awesome">
-        <p>This is great isn't it?</p>
-    </div>
-
-## Buttons
-
-Make any link standout more when applying the `.btn` class.
-
-{% highlight html %}
-<a href="#" class="btn btn-success">Success Button</a>
-{% endhighlight %}
-
-<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-success">Success Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-warning">Warning Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-danger">Danger Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
+So this is where it starts. As of next week, we're doing [WebKea](http://webkea.co.nz) full-time. Here's to believing in yourself and pursuing what you love :)
