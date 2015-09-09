@@ -4,7 +4,7 @@ title: "Taking the leap"
 modified:
 categories: posts
 description: "How we decided to take the leap of faith, quit our jobs, and start a business."
-tags: [business, startups]
+tags: [business]
 image:
   feature:
   credit:
