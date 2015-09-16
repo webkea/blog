@@ -9,7 +9,7 @@ image:
   feature:
   credit:
   creditlink:
-comments:
+comments: false
 share:
 date: 2015-09-03T21:25:14+12:00
 ---
